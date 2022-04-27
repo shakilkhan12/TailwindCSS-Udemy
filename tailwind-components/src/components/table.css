@@ -1,0 +1,30 @@
+.th {
+  @apply p-4 uppercase text-xs font-bold text-gray-600 text-left;
+}
+.td {
+  @apply p-4 text-sm text-gray-600;
+}
+.image-block {
+  @apply w-[40px] h-[40px] rounded-full overflow-hidden;
+}
+.image {
+  @apply w-full h-full object-cover;
+}
+.user {
+  @apply block text-sm font-semibold text-black capitalize;
+}
+.email {
+  @apply block text-xs text-gray-500 font-medium;
+}
+.joined {
+  @apply font-medium text-gray-700 text-sm;
+}
+.subscription {
+  @apply font-medium text-xs capitalize text-gray-500;
+}
+.status {
+  @apply inline-block bg-green-100 text-green-700 px-3 py-1.5 rounded-3xl text-xs font-medium capitalize;
+}
+.tbody-tr {
+  @apply even:bg-gray-100;
+}

@@ -1,0 +1,12 @@
+.form-card {
+  @apply bg-white p-5 dark:bg-gray-800;
+}
+.form-heading {
+  @apply mb-4 underline decoration-indigo-500 decoration-wavy underline-offset-[5px] text-lg capitalize dark:text-white;
+}
+.label {
+  @apply block mb-2 text-gray-500 capitalize dark:text-gray-300;
+}
+.form-control {
+  @apply w-full border-none outline-none bg-[#f7f7f9] py-3 px-4 focus:ring-[3px] ring-gray-200 transition-all duration-500 placeholder:capitalize placeholder:text-gray-400 dark:bg-gray-900 dark:text-white dark:ring-gray-600;
+}

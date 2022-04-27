@@ -1,0 +1,182 @@
+.buttons-container > button,
+a,
+input[type="submit"] {
+  @apply mt-3 md:mt-0;
+}
+.btn {
+  @apply inline-block text-white text-sm font-medium px-5 py-2 cursor-pointer border-0 capitalize;
+}
+.btn-primary {
+  @apply bg-blue-500;
+}
+.btn-dark {
+  @apply bg-black;
+}
+.btn-warning {
+  @apply bg-orange-400;
+}
+.btn-success {
+  @apply bg-green-600;
+}
+.btn-danger {
+  @apply bg-red-500;
+}
+.btn-purple {
+  @apply bg-purple-500;
+}
+.btn-indigo {
+  @apply bg-indigo-500;
+}
+
+/* Shadow buttons */
+.primary-shadow {
+  @apply shadow-lg shadow-blue-500/40;
+}
+.dark-shadow {
+  @apply shadow-lg shadow-black/40;
+}
+.warning-shadow {
+  @apply shadow-lg shadow-orange-400/40;
+}
+.success-shadow {
+  @apply shadow-lg shadow-green-500/40;
+}
+.danger-shadow {
+  @apply shadow-lg shadow-red-500/40;
+}
+.purple-shadow {
+  @apply shadow-lg shadow-purple-500/40;
+}
+.indigo-shadow {
+  @apply shadow-lg shadow-indigo-500/40;
+}
+
+/* ring classes */
+.primary-ring {
+  @apply focus:ring-2 ring-offset-2 ring-blue-500/70 transition-all;
+}
+.dark-ring {
+  @apply focus:ring-2 ring-offset-2 ring-black/60 transition-all;
+}
+.warning-ring {
+  @apply focus:ring-2 ring-offset-2 ring-orange-400/60 transition-all;
+}
+.success-ring {
+  @apply focus:ring-2 ring-offset-2 ring-green-600/60 transition-all;
+}
+.danger-ring {
+  @apply focus:ring-2 ring-offset-2 ring-red-500/60 transition-all;
+}
+.purple-ring {
+  @apply focus:ring-2 ring-offset-2 ring-purple-500/60 transition-all;
+}
+.indigo-ring {
+  @apply focus:ring-2 ring-offset-2 ring-indigo-500/60 transition-all;
+}
+
+/* material class */
+.material {
+  @apply shadow-sm shadow-black/40 uppercase relative before:absolute before:w-full before:h-full before:inset-0 before:bg-white/20 before:scale-0 hover:before:scale-100 before:transition-all before:rounded-full hover:before:rounded-none;
+}
+
+/* sweet buttons */
+.sweet-primary {
+  @apply bg-transparent text-black border-[3px] hover:bg-blue-500 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-blue-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-blue-300;
+}
+.sweet-dark {
+  @apply bg-transparent text-white border-[3px] hover:bg-black border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-black before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-black/70;
+}
+.sweet-warning {
+  @apply bg-transparent text-black border-[3px] hover:bg-orange-400 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-orange-400 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-orange-300;
+}
+.sweet-success {
+  @apply bg-transparent text-black border-[3px] hover:bg-green-600 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-green-600 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-green-300;
+}
+.sweet-danger {
+  @apply bg-transparent text-black border-[3px] hover:bg-red-500 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-red-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-red-300;
+}
+.sweet-purple {
+  @apply bg-transparent text-black border-[3px] hover:bg-purple-500 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-purple-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-purple-300;
+}
+.sweet-indigo {
+  @apply bg-transparent text-black border-[3px] hover:bg-indigo-500 border-black relative before:absolute before:w-full before:h-full before:bottom-2 before:right-2 before:bg-indigo-500 before:-z-10 hover:before:bottom-0 hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-indigo-300;
+}
+
+/* Outline buttons */
+.outline-primary {
+  @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
+}
+.outline-dark {
+  @apply bg-transparent border-[1.5px] border-black text-black;
+}
+.outline-warning {
+  @apply bg-transparent border-[1.5px] border-orange-400 text-orange-400;
+}
+.outline-success {
+  @apply bg-transparent border-[1.5px] border-green-600 text-green-600;
+}
+.outline-danger {
+  @apply bg-transparent border-[1.5px] border-red-500 text-red-500;
+}
+.outline-purple {
+  @apply bg-transparent border-[1.5px] border-purple-500 text-purple-500;
+}
+.outline-indigo {
+  @apply bg-transparent border-[1.5px] border-indigo-500 text-indigo-500;
+}
+
+/* Smart buttons */
+.smart-primary {
+  @apply bg-blue-100 text-blue-700;
+}
+.smart-dark {
+  @apply bg-gray-100 text-gray-700;
+}
+.smart-warning {
+  @apply bg-orange-100 text-orange-700;
+}
+.smart-success {
+  @apply bg-green-100 text-green-700;
+}
+.smart-danger {
+  @apply bg-red-100 text-red-700;
+}
+.smart-purple {
+  @apply bg-purple-100 text-purple-700;
+}
+.smart-indigo {
+  @apply bg-indigo-100 text-indigo-700;
+}
+
+/* Gradient buttons */
+.gradient-primary {
+  @apply bg-gradient-to-r from-blue-500 to-blue-100;
+}
+.gradient-dark {
+  @apply bg-gradient-to-r from-black to-gray-100;
+}
+.gradient-warning {
+  @apply bg-gradient-to-r from-orange-400 to-orange-100;
+}
+.gradient-success {
+  @apply bg-gradient-to-r from-green-600 to-green-200;
+}
+.gradient-danger {
+  @apply bg-gradient-to-r from-red-500 to-red-100;
+}
+.gradient-purple {
+  @apply bg-gradient-to-r from-purple-500 to-purple-100;
+}
+.gradient-indigo {
+  @apply bg-gradient-to-r from-indigo-500 to-indigo-100;
+}
+
+/* Block buttons */
+.btn-block {
+  @apply block w-full text-base py-3;
+}
+
+/* loading spinner */
+.spinner {
+  @apply block w-5 h-5 rounded-full border-[3px] border-t-black/10 border-r-black/10 animate-spin;
+}

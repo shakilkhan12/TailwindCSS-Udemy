@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" id="root">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-gray-100 relative dark:bg-gray-900">
+    <div class="absolute top-6 right-10 cursor-pointer" id="toggle"></div>
+    <div class="max-w-screen-xl mx-auto">
+        <div class="flex h-screen justify-center items-center">
+            <div class="w-full sm:w-10/12 md:w-7/12 lg:w-5/12 xl:w-4/12 p-6">
+                <div class="form-card">
+                    <form action="">
+                        <h1 class="form-heading">sign in to your account</h1>
+                        <div class="mb-4">
+                            <label for="email" class="label">your email</label>
+                            <input type="email" id="email" class="form-control" placeholder="your email" />
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="label">your password</label>
+                            <input type="password" id="password" class="form-control" placeholder="your password" />
+                        </div>
+                        <input type="submit" value="sign in" class="btn btn-dark px-6 py-3 dark:bg-rose-500 dark:text-white" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/darkMode.js"></script>
+</body>
+</html>
